@@ -54,33 +54,9 @@ const styles = StyleSheet.create({
 
 export default class Menu extends Component {
     
-    static propTypes = {
-        onItemSelected:React.Proptypes.func.isRequired,
-    };// 必须有分号
-
-    render() {
+    render(){
         return (
-            <ScrollView scrollToTop = {false} style={styles.menu}>
-                <View style={styles.avatarContainer}>
-                    <Image 
-                        style = {styles.avatar}
-                        source={{uri:uri}}/>
-                    <Text style={styles.name}>昵称</Text>
-                </View>
 
-                <Text 
-                    onPress={() => this.props.onItemSelected('关于作者')}
-                    style={styles.item}>
-                    About
-                </Text>
-                
-                <Text 
-                    onPress={() => this.props.onItemSelected('联系我们')}
-                    style={styles.item}>
-                    联系咱们
-                </Text>
-                
-            </ScrollView>
-        );
+        )
     }
 }
