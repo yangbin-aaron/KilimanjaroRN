@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         fontWeight:'300',
         paddingTop:10,
     },
-})
+});
 
 export default class Menu extends Component {
     

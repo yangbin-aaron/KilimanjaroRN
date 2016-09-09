@@ -1,0 +1,3 @@
+rootProject.name = 'kilimanjaro_rn'
+
+include ':app'
